@@ -10,7 +10,7 @@
     width: 100%;
     min-height: 100vh;
     border: 1px solid black;
-    background: linear-gradient(to top, #1e1eea, #fff);
+    background: linear-gradient(to top, #7A1CAC, #EBD3F8);
     padding: 10px;
 }
 .todo-app {
@@ -18,7 +18,7 @@
     max-width: 540px;
     min-height: 350px;
     border: 1px solid #000;
-    background: linear-gradient(to top, #fff, #1e1eea);
+    background: linear-gradient(to top, #EBD3F8, #d3b1e6);
     margin: 100px auto;
     border-radius: 10px;
 }
@@ -120,4 +120,40 @@ ul li span:hover {
 .unfinished {
     background-color: #ef1d1d;
     color: #fff;
+}
+
+@media only screen and (max-width: 375px){
+    .todo-app {
+        width: 90%;
+        margin: 10px auto;
+    }
+    .todo-app h2{
+        text-align: center;
+        margin: 10px;
+        padding-top: 10px;
+    }
+    .row {
+        width: 60%;
+    }
+    .filterBtn {
+        display: flex;
+        flex-direction: column; 
+    }
+    input {
+        flex-grow: 0;
+    }
+    .btn {
+        width: 50px;
+        padding: 8px;
+        font-size: 12px;
+        margin-bottom: 10px;
+        margin-left: 10px;
+    }
+    .addBtn {
+        padding: 10px;
+        background: linear-gradient(to top, #1e1eea, #fff);
+        border-radius: 40px;
+        color: #000;
+        font-size: 12px;
+    }
 }
