@@ -70,7 +70,7 @@ ul li::before {
     height: 28px;
     width: 28px;
     border-radius: 50%;
-    background-image: url(./circle.png);
+    background-image: url(./images/circle.png);
     background-size: cover;
     background-position: center;
     top: 12px;
@@ -81,7 +81,7 @@ ul li.checked {
     color: #ef1d1d;
 }
 ul li.checked::before{
-    background-image: url(./checkmark.png);
+    background-image: url(./images/checkmark.png);
 }
 ul li span {
     position: absolute;
